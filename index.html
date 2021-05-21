@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    h1 {
+    color: silver;
+    border-bottom: 4px solid silver;
+    }
+    
+    main {
+        display: inline-block;
+        position: relative;
+        bottom: 20px; /* optional */
+        border-bottom: 4px solid silver;
+    }
+
+    h1, main {
+        width: 50%;
+        margin: 100px 22.5% 0;
+    }
+
+    h2 {
+        color:red;
+        overflow-wrap: break-word;
+    }
+    
+    p {text-align: left;}
+    
+    p:nth-child(4) {
+        width: 75%;
+    }
+    
+    #giro {
+        display: inline-block;
+        position: absolute;
+        top:0px;
+        left:100%;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: justify;
+        line-height: 0.8;
+        transform: rotate(5deg);
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+    </style>
+    <title>404 side project 1</title>
+</head>
+<body style="font-family: Roboto, Arial, Helvetica, sans-serif;">
+    <h1>404 pagina niet gevonden</h1>
+    <main>
+            <img style="float:right; width: 20vw; margin-right:5%;" id="aside-img" src="./trafficlight.png" alt="trafficlight">
+            <div style="float:left ; width: 20vw;">
+                <h2>Raudonas teeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeextas</h2>
+                <p>1a pastraipa Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime a explicabo earum.</p>
+                <p>2a pastraipa Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime a explicabo earum.</p>
+                <p style="position: relative;">3a pastraipa Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime a explicabo earum
+                    <a style="color: rgb(236, 13, 99)" href="https://www.example.com" target="_blank">dooner online</a>
+                    <span id="giro">Giro</br>300</span></p>
+                <img style="width:80%; margin-top:40px" id="footer-img" src="./footer.png" alt="footer_logo">
+            </div>
+    </main>
+</body>
+</html>
